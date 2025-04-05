@@ -5,9 +5,9 @@
     "dev": "wrangler dev"
   },
   "devDependencies": {
-    "wrangler": "^3.48.0"  // 指定一个稳定的 3.x 版本，避免 4.x 的不必要更新
+    "wrangler": "^3.48.0"
   },
   "engines": {
-    "node": ">=18.0.0"  // 强制要求 Node.js 18+
+    "node": ">=18.0.0"
   }
 }
