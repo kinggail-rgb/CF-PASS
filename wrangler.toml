@@ -1,0 +1,10 @@
+name = "password-manager"
+main = "src/worker.js"
+compatibility_date = "2025-04-05"
+
+[site]
+bucket = "./src"
+
+[[kv_namespaces]]
+binding = "PASSWORD_KV"
+id = "902947a038a84886991541e48e3027e3" # 在 Cloudflare 仪表板创建 KV 后填入
